@@ -23,6 +23,7 @@ const ModalContentWrapper = styled(ModalDynamic)`
 function ModalContent ({ user }: { user: IRandomName }) {
   return (
     <Card
+      title="抽獎結果"
       className="card-with-icon-hover"
       style={{ width: 360 }}
       cover={
